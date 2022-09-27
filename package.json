@@ -1,5 +1,5 @@
 {
-  "name": "alto",
+  "name": "altox",
   "description": "A Ghost theme",
   "version": "1.0.0",
   "private": true,
@@ -8,9 +8,9 @@
   },
   "license": "MIT",
   "author": {
-    "name": "Ghost Foundation",
-    "email": "hello@ghost.org",
-    "url": "https://ghost.org"
+    "name": "Rayhan Nabi",
+    "email": "me@rayhannabi.com",
+    "url": "https://rayhannabi.com"
   },
   "keywords": [
     "ghost",

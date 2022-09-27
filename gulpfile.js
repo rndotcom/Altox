@@ -2,6 +2,8 @@ const { series, parallel, watch, src, dest } = require("gulp");
 const pump = require("pump");
 const argv = require("yargs").argv;
 const exec = require("child_process").exec;
+const path = require("path");
+const log = require("fancy-log");
 
 // gulp plugins and utils
 const livereload = require("gulp-livereload");
@@ -91,8 +93,11 @@ function symlink(done) {
   if (!argv.site) {
     handleError(done("Required parameter --site is missing"));
   }
+  const themeName = require("./package.json").name;
+  const targetDir = path.join(argv.site, "content", "themes", themeName);
 
-  exec(`ln -sfn ${__dirname}/ ${argv.site}/content/themes/altox`);
+  exec(`ln -sfn ${__dirname}/ ${targetDir}`);
+  log(`Symlinked to ${path.resolve(targetDir)}`);
   done();
 }
 
