@@ -1,5 +1,7 @@
 const { series, parallel, watch, src, dest } = require("gulp");
 const pump = require("pump");
+const argv = require("yargs").argv;
+const exec = require("child_process").exec;
 
 // gulp plugins and utils
 const livereload = require("gulp-livereload");
