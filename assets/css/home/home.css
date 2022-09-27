@@ -1,0 +1,14 @@
+.landing {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.landing-text {
+    color: var(--primary-color);
+}
+
+.landing h1, p {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 40px;
+}
