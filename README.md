@@ -1,5 +1,4 @@
 [![gscan](https://github.com/rndotcom/Altox/actions/workflows/gscan.yml/badge.svg?branch=main)](https://github.com/rndotcom/Altox/actions/workflows/gscan.yml)
-
 [![Deployment](https://github.com/rndotcom/Altox/actions/workflows/deploy.yml/badge.svg)](https://github.com/rndotcom/Altox/actions/workflows/deploy.yml)
 
 # Alto
