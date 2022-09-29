@@ -1,3 +1,7 @@
+[![gscan](https://github.com/rndotcom/Altox/actions/workflows/gscan.yml/badge.svg?branch=main)](https://github.com/rndotcom/Altox/actions/workflows/gscan.yml)
+
+[![Deployment](https://github.com/rndotcom/Altox/actions/workflows/deploy.yml/badge.svg)](https://github.com/rndotcom/Altox/actions/workflows/deploy.yml)
+
 # Alto
 
 A clean, minimalist [Ghost](https://github.com/TryGhost/Ghost) theme featuring a light and dark mode. Launch your online publications with flair.
