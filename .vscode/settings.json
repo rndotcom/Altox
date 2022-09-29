@@ -1,0 +1,5 @@
+{
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-workflow.json": "file:///Users/rayhan/work/rncom/ghost/themes/Altox/.github/workflows/deploy.yml"
+  }
+}
