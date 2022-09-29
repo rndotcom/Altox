@@ -1,15 +1,17 @@
 {{!< default}}
 
+{{#if @custom.show_featured_posts}}
+    {{> "featured"}}
+{{/if}}
+
+
 <div class="content-area">
-<main class="site-main">
-
-    <div class="post-feed">
-        {{#foreach posts}}
-            {{> "loop"}}
-        {{/foreach}}
-    </div>
-
-    {{pagination}}
-
-</main>
+    <main class="site-main">
+        <div class="post-feed">
+            {{#foreach posts}}
+                {{> "loop"}}
+            {{/foreach}}
+        </div>
+        {{pagination}}
+    </main>
 </div>
