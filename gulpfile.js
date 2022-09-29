@@ -70,7 +70,8 @@ function js(done) {
 }
 
 function zipper(done) {
-  const filename = require("./package.json").name + ".zip";
+  const package = require("./package.json");
+  const filename = package.name + "-v" + package.version + ".zip";
 
   pump(
     [
