@@ -1,0 +1,53 @@
+.contact form {
+  margin: 5% 10%;
+}
+
+.contact label {
+  font-size: 16px;
+}
+
+.contact span {
+  color: var(--primary-color);
+}
+
+.contact p {
+  text-align: center;
+  margin: 0px 20px 0px 20px;
+}
+
+.contact input,
+.contact select,
+.contact textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 8px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  background-color: #f8f8f8;
+}
+
+.contact textarea {
+  min-height: 200px;
+}
+
+.dark-mode input,
+.dark-mode select,
+.dark-mode textarea {
+  border: 1px solid #656f86; /* Gray border */
+  background-color: #323743;
+  color: white;
+}
+
+.contact button {
+  margin: 20px auto;
+  display: block;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  outline: none !important;
+  border: 1.5px solid var(--primary-color);
+}
