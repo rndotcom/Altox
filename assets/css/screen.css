@@ -15,5 +15,7 @@
 @import "misc/utilities.css";
 @import "misc/dark.css";
 @import "misc/form.css";
+@import "misc/progressbar.css";
+@import "misc/prism.css";
 @import "home/home.css";
 @import "home/cta.css";
