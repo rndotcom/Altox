@@ -1,7 +1,7 @@
 {
   "name": "altox",
-  "description": "Ghost theme for rayhannabi.com",
-  "version": "0.0.3",
+  "description": "Ghost theme modifier for rayhannabi.com",
+  "version": "1.0.0",
   "private": true,
   "engines": {
     "ghost": ">=5.0.0"
@@ -15,7 +15,8 @@
   "keywords": [
     "ghost",
     "theme",
-    "ghost-theme"
+    "ghost-theme",
+    "rayhannabi.com"
   ],
   "config": {
     "posts_per_page": 5,
