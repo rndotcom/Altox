@@ -17,6 +17,7 @@ function darkMode() {
   }
 
   const useDark = window.matchMedia("(prefers-color-scheme: dark)");
+  toggleDarkMode(useDark.matches);
   useDark.addEventListener("change", (event) => toggleDarkMode(event.matches));
   $(".toggle-track").on("click", () =>
     toggleDarkMode(!html.hasClass("dark-mode"))
