@@ -27,7 +27,7 @@
             <div id="stars4"></div>
         </div>
         <div class="error">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 146.1858257312929 60" class="site-icon">
+            {{!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 146.1858257312929 60" class="site-icon">
                 <g transform="matrix(1.1602049661213722,0,0,1.1602049661213722,-1.1602051578176287,-44.25370173585506)"
                     stroke="none" fill="gray">
                     <path
@@ -40,7 +40,8 @@
                         d="M21.266 58.807l7.381 4.248 8.377-4.824a.806.806 0 0 1 .346-.102l-.651-8.221-15.453 8.899zM1 58.807v10.396l36.154 20.654-.925-9.908z">
                     </path>
                 </g>
-            </svg>
+            </svg> --}}
+            <img class="site-icon" src="{{asset 'images/site-icon-template.png'}}" alt="{{@site.name}}" />
             <p class="code">{{statusCode}}</p>
             <p class="message">{{message}}</p>
 
