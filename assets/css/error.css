@@ -1249,3 +1249,24 @@ body {
     transform: translateY(-2000px);
   }
 }
+
+@media only screen and (max-height: 500px) {
+  .site-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .error {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .error .code {
+    font-size: 4.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .error .message {
+    font-size: 0.75rem;
+  }
+}
